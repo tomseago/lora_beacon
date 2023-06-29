@@ -1,0 +1,19 @@
+build
+cmake-build-debug
+
+.idea
+
+sdkconfig
+sdkconfig.old
+sdkconfig.defaults.*
+dependencies.lock
+
+managed_components
+
+# Ignore local config files. Defaults are in code so you can override
+# them by using this file if desired.
+spiffs/config.json
+
+# Local firmwares
+*.bin
+
